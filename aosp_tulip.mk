@@ -28,6 +28,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # PixelExperience Properties
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_FACE_UNLOCK_SUPPORTED := false
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
